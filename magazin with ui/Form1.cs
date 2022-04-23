@@ -44,7 +44,8 @@ namespace magazin_with_ui
             label2.Text = name;
             label3.Text = price;
             label4.Text = file;
-            pictureBox1.Image = Image.FromFile(file);
+            //pictureBox1.Image = Image.FromFile(file);
+            pictureBox1.ImageLocation = file;
 
         }
 
