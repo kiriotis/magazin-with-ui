@@ -43,9 +43,11 @@ namespace magazin_with_ui
             search.item_all(textBox1.Text,out name,out price,out file);
             label2.Text = name;
             label3.Text = price;
-            label4.Text = file;
+            //label4.Text = file;
             //pictureBox1.Image = Image.FromFile(file);
-            pictureBox1.ImageLocation = file;
+            //pictureBox1.ImageLocation = file;
+            pictureBox1.ImageLocation= file;
+           
 
         }
 
