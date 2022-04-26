@@ -15,6 +15,7 @@ namespace magazin_with_ui
         public string name;
         public string price;
         public string file;
+        public int x ;
 
         public Form1()
         {
@@ -40,14 +41,25 @@ namespace magazin_with_ui
         private void button1_Click(object sender, EventArgs e)
         {
             items search = new items();
-            search.item_all(textBox1.Text,out name,out price,out file);
+            if (radioButton1.Checked)
+            {
+                x = 1;
+
+            }
+            else if (radioButton2.Checked)
+            {
+                x = 2;
+            }
+            else if (radioButton3.Checked)
+            {
+                x = 3;
+            }
+            
+            search.item_all(textBox1.Text, x, out name, out price, out file);
             label2.Text = name;
             label3.Text = price;
-            //label4.Text = file;
-            //pictureBox1.Image = Image.FromFile(file);
-            //pictureBox1.ImageLocation = file;
-            pictureBox1.ImageLocation= file;
-           
+            pictureBox1.ImageLocation = file;
+
 
         }
 
