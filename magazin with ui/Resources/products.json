@@ -34,5 +34,65 @@
     "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
     "type": "brush",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+  },
+  "7":{
+    "name": "tape_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/tape_1.jpeg?raw=true",
+    "type": "tape",
+    "description": "лента = хуелента"
+  },
+  "8":{
+    "name": "paint_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
+    "type": "paint  ",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+  },
+  "9":{
+    "name": "paint_2",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_2.png?raw=true",
+    "type": "paint",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+  },
+  "10":{
+    "name": "paint_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
+    "type": "paint  ",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+  },
+  "11":{
+    "name": "paint_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
+    "type": "paint  ",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+  },
+  "12":{
+    "name": "paint_2",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_2.png?raw=true",
+    "type": "paint",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+  },
+  "13":{
+    "name": "tape_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/tape_1.jpeg?raw=true",
+    "type": "tape",
+    "description": "лента = хуелента"
+  },
+  "14":{
+    "name": "brush_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
+    "type": "brush",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+  },
+  "15":{
+    "name": "brush_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
+    "type": "brush",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+  },
+  "16":{
+    "name": "brush_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
+    "type": "brush",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   }
 }
