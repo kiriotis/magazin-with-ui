@@ -28,7 +28,7 @@ namespace magazin_with_ui
             Console.WriteLine(arr[x][1]);
             Console.WriteLine(arr[x][2]);
            
-            if (x == 1)
+            /*if (x == 1)
              {
                  for (int i = 0; i < leght; i++)
                  {
