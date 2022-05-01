@@ -24,7 +24,7 @@ namespace magazin_with_ui
             var jsonFile = reader.ReadToEnd();
 
             items count_items = new items();
-           // var path =;
+           
            // var jsonFile = File.ReadAllText(path);
             Json_items json_ = JsonConvert.DeserializeObject<Json_items>(jsonFile);
             var res = JsonConvert.DeserializeObject<Dictionary<int,Json_items>>(jsonFile);
