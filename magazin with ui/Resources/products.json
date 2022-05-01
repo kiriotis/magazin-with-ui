@@ -1,12 +1,12 @@
 {
   "1":{
-    "name": "paint_1",
+    "name": "paint_1_1",
     "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
     "type": "paint",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   },
   "2":{
-    "name": "paint_2",
+    "name": "paint_2_1",
     "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_2.png?raw=true",
     "type": "paint",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
