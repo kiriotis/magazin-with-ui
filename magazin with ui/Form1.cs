@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.Json;
+using System.IO;
+
 
 namespace magazin_with_ui
 {
@@ -16,11 +19,19 @@ namespace magazin_with_ui
         public string price;
         public string file;
         public int x ;
+        
+       
+        
+       
+
 
         public Form1()
         {
             InitializeComponent();
-            
+            new json_provaider().provide();
+            radioButton1.Checked=true;
+          
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -39,7 +50,7 @@ namespace magazin_with_ui
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        {   
             items search = new items();
             if (radioButton1.Checked)
             {
@@ -54,11 +65,15 @@ namespace magazin_with_ui
             {
                 x = 3;
             }
-            
-            search.item_all(textBox1.Text, x, out name, out price, out file);
-            label2.Text = name;
-            label3.Text = price;
-            pictureBox1.ImageLocation = file;
+
+            // search.item_all(textBox1.Text, x, out name, out price, out file);
+            // label2.Text = name;
+            // label3.Text = price;
+            // pictureBox1.ImageLocation = file;
+           
+             
+           
+
 
 
         }
@@ -72,5 +87,6 @@ namespace magazin_with_ui
         {
 
         }
+
     }
 }
