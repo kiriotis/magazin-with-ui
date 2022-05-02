@@ -19,16 +19,19 @@ namespace magazin_with_ui
         public string price;
         public string file;
         public int x ;
-        
-       
+        public int id_counter;
+      
         
        
 
 
         public Form1()
         {
+            id_counter = new json_provaider().provide();
             InitializeComponent();
-            new json_provaider().provide();
+
+
+            
             radioButton1.Checked=true;
           
            
@@ -52,6 +55,8 @@ namespace magazin_with_ui
         private void button1_Click(object sender, EventArgs e)
         {   
             items search = new items();
+            
+
             if (radioButton1.Checked)
             {
                 x = 1;
@@ -65,14 +70,18 @@ namespace magazin_with_ui
             {
                 x = 3;
             }
+            
+            search.item_search(textBox1.Text, x, id_counter, out name, out price, out file);
 
+            label2.Text = name;
+            label3.Text = price;
+            pictureBox1.ImageLocation = file;
+            
             // search.item_all(textBox1.Text, x, out name, out price, out file);
-            // label2.Text = name;
-            // label3.Text = price;
-            // pictureBox1.ImageLocation = file;
-           
-             
-           
+
+
+
+
 
 
 

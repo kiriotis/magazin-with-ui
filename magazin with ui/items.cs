@@ -9,62 +9,54 @@ namespace magazin_with_ui
     class items
     {
 
+        
 
-
-        public int leght ;
-
-        public void item_all1()
-        {
-            string[][] arr = new string[leght][];
-
-        }
-        public void item_all( int x,  string name,  string price,  string file)
+        static  string[][] arr = new string[1000][];
+        
+        public string[][]  item_all(int x, string  name, string price, string file)
         {
 
 
-            string[][] arr = new string[leght][];
-            arr[x] = new string[] { name, price, file };
+            Console.WriteLine(x);
+            arr[x] =new string[] { name, price , file };
+             
+               
+
             Console.WriteLine(arr[x][0]);
             Console.WriteLine(arr[x][1]);
             Console.WriteLine(arr[x][2]);
-           
-            /*if (x == 1)
-             {
-                 for (int i = 0; i < leght; i++)
-                 {
+            return arr;
+            
 
-                     if (Convert.ToString(i) == art)
-                     {
-                         name = arr[i][0];
-                         price = arr[i][1];
-                         file = arr[i][2];
-
-                     }
-                 }
-             }
-             else if (x == 2)
-             {
+        }
 
 
-                 for ( int  i = 0; i < leght; i++)
-                 {
+        
+        public void item_search(string art,int x, int id , out string name, out string  price, out string file )
+        {
+            
+            name = null;
+            price =null;
+            file = null;
+          
+            
+            if (x == 1)
+            {
+               
+                for (int i = 1; i <= id ; i++)
+                {
+                    if (i == Convert.ToInt32(art))
+                    {
+                        
+                        name = arr[i][0];
+                        price= arr[i][1];
+                        file=  arr[i][2];
+                    }
+                    
 
-                     if (arr[i][0] == art)
-                     {
-                         name = arr[i][0];
-                         price = arr[i][1];
-                         file = arr[i][2];
-
-                     }
-                 }
-
-             }
-             else if (x == 3)
-             { 
-
-             }*/
-
-
+                    
+                }
+            }
         }
 
     }
