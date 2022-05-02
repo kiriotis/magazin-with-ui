@@ -1,98 +1,72 @@
 {
   "1":{
-    "name": "paint_1",
+    "name": "CONDOR haus proff",
     "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
-    "type": "paint  ",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+    "price": "150",
+    "type": "paint",
+    "description": "Глубокоматовая краска высокой белизны для профессионального окрашивания потолков и стен. Тонируется машинной колеровкой, а также пигментными пастами Vollton."
   },
   "2":{
-    "name": "paint_2",
+    "name": "super condor",
     "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_2.png?raw=true",
+    "price": "120",
     "type": "paint",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   },
   "3":{
     "name": "tape_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/tape_1.jpeg?raw=true",
+    "img": "https://raw.githubusercontent.com/kiriotis/magazin-with-ui/25181fb60e2ee11e3b3685278e4e019750a1aff5/magazin%20with%20ui/Resources/tape_1.png",
+    "price": "19",
     "type": "tape",
     "description": "лента = хуелента"
   },
   "4":{
     "name": "brush_1",
     "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
+    "price": "20",
     "type": "brush",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   },
   "5":{
-    "name": "brush_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
-    "type": "brush",
+    "name": "paint_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
+    "price": "115",
+    "type": "paint  ",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   },
   "6":{
-    "name": "brush_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
-    "type": "brush",
+    "name": "paint_2",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_2.png?raw=true",
+    "price": "122",
+    "type": "paint",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   },
   "7":{
     "name": "tape_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/tape_1.jpeg?raw=true",
+    "img": "https://raw.githubusercontent.com/kiriotis/magazin-with-ui/25181fb60e2ee11e3b3685278e4e019750a1aff5/magazin%20with%20ui/Resources/tape_1.png",
+    "price": "16",
     "type": "tape",
     "description": "лента = хуелента"
   },
   "8":{
-    "name": "paint_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
-    "type": "paint  ",
+    "name": "brush_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
+    "price": "20",
+    "type": "brush",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   },
   "9":{
-    "name": "paint_2",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_2.png?raw=true",
-    "type": "paint",
+    "name": "paint_1",
+    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
+    "price": "133",
+    "type": "paint  ",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   },
   "10":{
-    "name": "paint_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
-    "type": "paint  ",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
-  },
-  "11":{
-    "name": "paint_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
-    "type": "paint  ",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
-  },
-  "12":{
     "name": "paint_2",
     "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_2.png?raw=true",
+    "price": "55",
     "type": "paint",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
-  },
-  "13":{
-    "name": "tape_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/tape_1.jpeg?raw=true",
-    "type": "tape",
-    "description": "лента = хуелента"
-  },
-  "14":{
-    "name": "brush_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
-    "type": "brush",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
-  },
-  "15":{
-    "name": "brush_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
-    "type": "brush",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
-  },
-  "16":{
-    "name": "brush_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/brush_1.png?raw=true",
-    "type": "brush",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   }
 }
