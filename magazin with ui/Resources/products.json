@@ -1,10 +1,10 @@
 {
   "1":{
-    "name": "paint_1",
+    "name": "CONDOR haus proff",
     "img": "https://github.com/kiriotis/magazin-with-ui/blob/master/magazin%20with%20ui/Resources/paint_1.png?raw=true",
     "price": "150",
-    "type": "paint  ",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+    "type": "paint",
+    "description": "Глубокоматовая краска высокой белизны для профессионального окрашивания потолков и стен. Тонируется машинной колеровкой, а также пигментными пастами Vollton."
   },
   "2":{
     "name": "paint_2",
