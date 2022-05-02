@@ -13,7 +13,7 @@
   },
   "3":{
     "name": "tape_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/25181fb60e2ee11e3b3685278e4e019750a1aff5/magazin%20with%20ui/Resources/tape_1.png",
+    "img": "https://raw.githubusercontent.com/kiriotis/magazin-with-ui/25181fb60e2ee11e3b3685278e4e019750a1aff5/magazin%20with%20ui/Resources/tape_1.png",
     "type": "tape",
     "description": "лента = хуелента"
   },
@@ -37,7 +37,7 @@
   },
   "7":{
     "name": "tape_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/25181fb60e2ee11e3b3685278e4e019750a1aff5/magazin%20with%20ui/Resources/tape_1.png",
+    "img": "https://raw.githubusercontent.com/kiriotis/magazin-with-ui/25181fb60e2ee11e3b3685278e4e019750a1aff5/magazin%20with%20ui/Resources/tape_1.png",
     "type": "tape",
     "description": "лента = хуелента"
   },
@@ -73,7 +73,7 @@
   },
   "13":{
     "name": "tape_1",
-    "img": "https://github.com/kiriotis/magazin-with-ui/blob/25181fb60e2ee11e3b3685278e4e019750a1aff5/magazin%20with%20ui/Resources/tape_1.png",
+    "img": "https://raw.githubusercontent.com/kiriotis/magazin-with-ui/25181fb60e2ee11e3b3685278e4e019750a1aff5/magazin%20with%20ui/Resources/tape_1.png",
     "type": "tape",
     "description": "лента = хуелента"
   },
