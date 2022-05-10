@@ -26,8 +26,7 @@ namespace magazin_with_ui
             int x=0;
             int y = 1;
 
-            // var jsonFile = File.ReadAllText(path);
-            //Json_items json_ = JsonConvert.DeserializeObject<Json_items>(jsonFile);
+           
             var res = JsonConvert.DeserializeObject<Dictionary<int,Json_items>>(jsonFile);
 
             foreach (var person in res)

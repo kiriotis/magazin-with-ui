@@ -9,9 +9,10 @@ namespace magazin_with_ui
     class items
     {
 
-        
 
-        static  string[][] arr = new string[1000][];
+
+        static string[][] arr = new string[1000][];
+        
         
         public string[][]  item_all(int x, string  name, string price, string file)
         {
@@ -31,32 +32,57 @@ namespace magazin_with_ui
         }
 
 
-        
-        public void item_search(string art,int x, int id , out string name, out string  price, out string file )
+
+        public void  item_search(string art, int x, int id, out string[][] ark,out int kek)
         {
-            
-            name = null;
-            price =null;
-            file = null;
-          
-            
+            kek = 0;
+            ark = new string[1000][];
+
             if (x == 1)
             {
-               
-                for (int i = 1; i <= id ; i++)
+                for (int i = 1; i<= id;i++)
                 {
-                    if (i == Convert.ToInt32(art))
-                    {
-                        
-                        name = arr[i][0];
-                        price= arr[i][1];
-                        file=  arr[i][2];
-                    }
-                    
 
-                    
+                    if (Convert.ToString(i).Contains(art))
+                    {
+                        ark[kek] = new string[] { arr[i][0], arr[i][1], arr[i][2] };
+                        
+                        kek++;
+
+                        
+                        
+
+
+
+                    }
+
+                     
                 }
             }
+            if (x == 2)
+            {
+                for (int i = 1; i <= id; i++)
+                {
+
+                    if (Convert.ToString(arr[i][0]).Contains(art))
+                    {
+                        ark[kek] = new string[] { arr[i][0], arr[i][1], arr[i][2] };
+
+                        kek++;
+
+
+
+
+
+
+                    }
+
+
+                }
+            }
+
+
+
         }
 
     }

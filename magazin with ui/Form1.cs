@@ -18,11 +18,12 @@ namespace magazin_with_ui
         public string name;
         public string price;
         public string file;
-        public int x ;
+        public int x;
         public int id_counter;
-      
-        
-       
+        public int id_counter2;
+        public string[][] arr1 = new string[1000][];
+
+
 
 
         public Form1()
@@ -31,10 +32,10 @@ namespace magazin_with_ui
             InitializeComponent();
 
 
-            
-            radioButton1.Checked=true;
-          
-           
+
+            radioButton1.Checked = true;
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -53,9 +54,10 @@ namespace magazin_with_ui
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {   
+        {
+            listBox1.Items.Clear();
             items search = new items();
-            
+            int i1=0;
 
             if (radioButton1.Checked)
             {
@@ -70,20 +72,15 @@ namespace magazin_with_ui
             {
                 x = 3;
             }
-            
-            search.item_search(textBox1.Text, x, id_counter, out name, out price, out file);
 
-            label2.Text = name;
-            label3.Text = price;
-            pictureBox1.ImageLocation = file;
-            
-            // search.item_all(textBox1.Text, x, out name, out price, out file);
-
-
-
-
-
-
+            search.item_search(textBox1.Text, x, id_counter,out arr1,out id_counter2);
+            do
+            {
+                listBox1.Items.Add(arr1[i1][0]);
+                i1++;
+            }
+            while (i1< id_counter2);
+            //pictureBox1.ImageLocation = file;
 
         }
 
@@ -97,5 +94,19 @@ namespace magazin_with_ui
 
         }
 
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+        }  
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            pictureBox1.ImageLocation = arr1[listBox1.SelectedIndex][2];
+            label2.Text = arr1[listBox1.SelectedIndex][1];
+        }
     }
 }
