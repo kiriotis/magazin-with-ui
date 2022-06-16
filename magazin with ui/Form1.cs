@@ -16,6 +16,7 @@ namespace magazin_with_ui
     public partial class Form1 : Form
     {
         public string name;
+        public string name2;
         public string price;
         public string file;
         public int x;
