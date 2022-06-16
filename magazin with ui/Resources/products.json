@@ -68,5 +68,12 @@
     "price": "55",
     "type": "paint",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
+  },
+  "11":{
+    "name": "kraska kek",
+    "img": "https://www.oma.by/upload/Sh/imageCache/624/e01/eb6b752514cbdad5e8ee50991fcb9366.jpg",
+    "price": "123",
+    "type": "paint  ",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem dolore ducimus ea et facere inventore laborum laudantium magni minima natus nihil provident quaerat ratione, recusandae tenetur totam ut voluptatum."
   }
 }
